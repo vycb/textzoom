@@ -1,0 +1,33 @@
+{
+  "name": "textzoom",
+  "title": "TextZoom",
+  "id": "jid1-B3yalP92uSPu4w",
+  "description": "Allows enlarge text parsgraf or text-blocks. Works also with images.",
+  "author": "vycb",
+  "license": "MPL 2.0",
+  "version": "1.0",
+  "icon": "icon-64.png",
+  "icon64": "icon-64.png",
+  "preferences": [{
+    "name": "changeStep",
+    "title": "Change step",
+    "description": "Change font size step value",
+    "type": "integer",
+    "value": 4
+  },
+    {
+      "name": "scale",
+      "title": "Scale",
+      "description": "Image scale value",
+      "type": "string",
+      "value": "1.5"
+    },
+    {
+      "name": "defFontSize",
+      "title": "Default font size",
+      "description": "Default Font Size for text",
+      "type": "integer",
+      "value": 22
+    }
+  ]
+}

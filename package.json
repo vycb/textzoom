@@ -2,7 +2,7 @@
   "name": "textzoom",
   "title": "TextZoom",
   "id": "jid1-B3yalP92uSPu4w",
-  "description": "Allows enlarge text parsgraf or text-blocks. Works also with images.",
+  "description": "The Firefox addon allows enlarge font size of text parsgrafs or text-blocks. It also able to enlarge images.",
   "author": "vycb",
   "license": "MPL 2.0",
   "version": "1.0",

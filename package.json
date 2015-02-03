@@ -1,6 +1,6 @@
 {
-  "name": "textzoom",
-  "title": "TextZoom",
+  "name": "textblockzoom",
+  "title": "TextBlockZoom",
   "id": "jid1-B3yalP92uSPu4w",
   "description": "The Firefox addon allows enlarge font size of text paragraphs or text blocks through context menu. It also able to enlarge images.",
   "author": "vycb",
@@ -9,21 +9,21 @@
   "icon": "icon-64.png",
   "icon64": "icon-64.png",
   "preferences": [{
-    "name": "changeStep",
+    "name": "textblockzoomChangeStep",
     "title": "Change step",
     "description": "Change font size step value",
     "type": "integer",
     "value": 4
   },
     {
-      "name": "scale",
+      "name": "textblockzoomScale",
       "title": "Scale",
       "description": "Image scale value",
       "type": "string",
       "value": "1.5"
     },
     {
-      "name": "defFontSize",
+      "name": "textblockzoomDefFontSize",
       "title": "Default font size",
       "description": "Default Font Size for text",
       "type": "integer",

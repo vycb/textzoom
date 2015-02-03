@@ -2,7 +2,7 @@
   "name": "textblockzoom",
   "title": "TextBlockZoom",
   "id": "jid1-B3yalP92uSPu4w",
-  "description": "The Firefox addon allows enlarge font size of text paragraphs or text blocks through context menu. It also able to enlarge images.",
+  "description": "Allows enlarge font size of text paragraphs or text blocks through context menu. It also able to enlarge images.",
   "author": "vycb",
   "license": "MPL 2.0",
   "version": "1.0",

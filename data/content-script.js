@@ -1,4 +1,9 @@
-self.on("click", zoom);
+self.on("click", function(node, data){
+
+	//self.postMessage(getId(node));
+
+	zoom(node, data);
+});
 
 function zoom(node, data){
 	var args = data.split(','),
@@ -39,7 +44,9 @@ function zoom(node, data){
 
 	//logdata(node, data);
 }
-
+function getId(node){
+	return ((node.id) ? node.id : (node.id = 'genId' + new Date().getTime()));
+}
 function logdata(node, data){
 	console.log("clicked: " + node.nodeName);
 	console.log("data: " + data);
